@@ -17,7 +17,7 @@ const char* wifiPassword = "testes123123";
 
 HTTPClient http;
 WiFiClient client;
-const char* api = "http://sdl.douglasnugroho.com/ws/open.php";
+const char* api = "***********";
 
 const uint8_t KEYPAD_ADDRESS = 0x20; // I2C adress where keyboard is located
 I2CKeyPad keyPad(KEYPAD_ADDRESS);
